@@ -1,0 +1,408 @@
+;Place localized text in this file
+
+[XenoZoologist X2SoldierClassTemplate]
+DisplayName="Ксенозоолог"
+ClassSummary="Большинство людей боятся старейшин и пришельцев, которых они привели с собой. Но некоторым из наших солдат удалось, с помощью Шена и Тайгана, вживить чипы в черепа пришельцев, что позволяет полностью контролировать их. Для этого необходимо оборудование, которое всегда должно использоваться с крайней осторожностью, чтобы пришельцы не смогли освободиться. Вооруженные только голографическим маркером, их 'друзья' пришельцы делают всю тяжелую работу."
+LeftAbilityTreeTitle = "Укорененный Адвент"
+RightAbilityTreeTitle = "Укрощенный Кодекс"
+AbilityTreeTitles[0]="Укорененный Адвент"
+AbilityTreeTitles[1]="Укрощенный Кодекс"
+AbilityTreeTitles[2]="Подавленный Призрак"
+
+RandomNickNames[0]="Коллектор"
+RandomNickNames[1]="Ксенофил"
+RandomNickNames[2]="Ксено"
+RandomNickNames[3]="Оковщик"
+RandomNickNames[4]="Работорговец"
+RandomNickNames[5]="Пытатель"
+RandomNickNames[6]="Симпатизант"
+RandomNickNames[7]="Разведчик"
+RandomNickNames[8]="Хищник"
+RandomNickNames[9]="Преследователь"
+RandomNickNames[10]="Следопыт"
+RandomNickNames[11]="Троянец"
+RandomNickNames[12]="Апекс"
+RandomNickNames[13]="Альфа"
+RandomNickNames[15]="Хранитель"
+RandomNickNames[16]="Очарователь"
+RandomNickNames[17]="Новое Управление"
+RandomNickNames[18]="Начальник Комбо"
+RandomNickNames[19]="Пепел"
+RandomNickNames[20]="Красный"
+RandomNickNames[21]="Сыграть Мэйкер"
+RandomNickNames[22]="Дхарк"
+RandomNickNames[23]="Лина"
+RandomNickNames[24]="Лунная Гонщица"
+RandomNickNames[25]="Укротитель"
+RandomNickNames[26]="Ланс"
+RandomNickNames[27]="Скопление"
+RandomNickNames[28]="Мастер Буров"
+RandomNickNames[29]="Овермайнд"
+RandomNickNames[30]="Профессор"
+RandomNickNames[31]="Ученый"
+RandomNickNames[32]="Доктор Ду"
+RandomNickNames[33]="Верховный Зоолог"
+RandomNickNames[34]="Элитный Показатель"
+RandomNickNames[35]="Ксеномант"
+RandomNickNames[36]="Пастух"
+RandomNickNames[37]="Мастер"
+RandomNickNames[38]="Патерон"
+RandomNickNames[39]="Учитель"
+
+RandomNickNames_Male[0]="Дарвин"
+RandomNickNames_Male[1]="Аристотель"
+RandomNickNames_Male[2]="Ламарк"
+RandomNickNames_Male[3]="Ирвин"
+RandomNickNames_Male[4]="Аттенборо"
+RandomNickNames_Male[5]="Малдер"
+RandomNickNames_Male[6]="Крестный Отец"
+
+RandomNickNames_Female[0]="Гудолл"
+RandomNickNames_Female[1]="Скалли"
+RandomNickNames_Female[2]="Крестная Мать"
+
+;XenoZoologist Weapon
+[SuperComputer_CV X2WeaponTemplate]
+FriendlyName="Вооружение Сверхкомпьютера"
+FriendlyNamePlural="Вооружения Сверхкомпьютеров"
+BriefSummary="Ксенозоолог должен постоянно следить за физическим и психическим состоянием своего Ксено, чтобы они не смогли освободиться. Скромные вычислительные выстрелы наносят минимальный урон."
+TacticalText="<Пуля/> Дает 5 Хакерства."
+AbilityDescName="Вооружение Сверхкомпьютера"
+
+[SuperComputer_MG X2WeaponTemplate]
+FriendlyName="Вооружение Квантового Компьютера"
+FriendlyNamePlural="Вооружения Квантовых Компьютеров"
+BriefSummary="Ксенозоолог должен постоянно следить за физическим и психическим состоянием своего Ксено, чтобы они не смогли освободиться. С увеличенной вычислительной мощностью выстрелы попадут в более важные части, нанося увеличенный урон."
+TacticalText="<Пуля/> Дает 15 Хакерства. \n<Пуля/> Базовый урон оружия Ксено увеличен на 2.\n<Пуля/> Прицел увеличен на 10."
+AbilityDescName="Вооружение Квантового Компьютера"
+
+[SuperComputer_MG_Schematic X2SchematicTemplate]
+m_strClassLabel="КСЕНОЗООЛОГ"
+
+[SuperComputer_BM X2XZSuperComputerTemplate]
+FriendlyName="Вооружение Элериевого Компьютера"
+FriendlyNamePlural="Вооружения Элериевых Компьютеров"
+BriefSummary="Ксенозоолог должен постоянно следить за физическим и психическим состоянием своего Ксено, чтобы они не смогли освободиться. С высшей вычислительной мощностью выстрелы попадут в важные органы, нанося максимальный урон."
+TacticalText="<Пуля/> Дает 45 Хакерства. \n<Пуля/> Базовый урон оружия Ксено увеличен на 4.\n<Пуля/> Прицел увеличен на 5."
+AbilityDescName="Вооружение Элериевого Компьютера"
+
+[SuperComputer_BM X2WeaponTemplate]
+FriendlyName="Вооружение Элериевого Компьютера"
+FriendlyNamePlural="Вооружения Элериевых Компьютеров"
+BriefSummary="Ксенозоолог должен постоянно следить за физическим и психическим состоянием своего Ксено, чтобы они не смогли освободиться. С высшей вычислительной мощностью выстрелы попадут в важные органы, нанося максимальный урон."
+TacticalText="<Пуля/> Дает 45 Хакерства. \n<Пуля/> Базовый урон оружия Ксено увеличен на 4.\n<Пуля/> Прицел увеличен на 5."
+AbilityDescName="Вооружение Элериевого Компьютера"
+
+[SuperComputer_BM_Schematic X2SchematicTemplate]
+m_strClassLabel="КСЕНОЗООЛОГ"
+
+[XZHasSuperComputer_CV X2AbilityTemplate]
+LocFriendlyName="Сверхкомпьютер"
+LocLongDescription="Позволяет создавать чипированные единицы."
+LocHelpText="Создать чипированную единицу."
+LocFlyOverText="Сверхкомпьютер"
+
+[XZHasSuperComputer_MG X2AbilityTemplate]
+LocFriendlyName="Сверхкомпьютер"
+LocLongDescription="Позволяет создавать чипированные единицы."
+LocHelpText="Создать чипированную единицу."
+LocFlyOverText="Сверхкомпьютер"
+
+[XZHasSuperComputer_BM X2AbilityTemplate]
+LocFriendlyName="Сверхкомпьютер"
+LocLongDescription="Позволяет создавать чипированные единицы."
+LocHelpText="Создать чипированную единицу."
+LocFlyOverText="Сверхкомпьютер"
+
+;Xeno Zoologist abilities 
+[XZSpawnTrooper X2AbilityTemplate]
+LocFriendlyName="Призвать солдата Адвент"
+LocLongDescription="Призвать базового солдата Адвент."
+LocHelpText="Призвать вашего солдата Адвент."
+LocPromotionPopupText="<Пуля/> Призывает базового солдата Адвент.\n<Пуля/> У базовых солдат Адвент только винтовка.\n<Пуля/> Урон от винтовки, а также некоторые другие способности будут улучшаться с развитием оружейной технологии."
+LocFlyOverText="Призвать солдата Адвент"
+
+[XZSpawnTroopers X2AbilityTemplate]
+LocFriendlyName="Призвать Дополнительных Адвентов"
+LocLongDescription="Призвать двух солдатов Адвент вместо одного."
+LocHelpText="Призвать ваших двух солдатов Адвент."
+LocPromotionPopupText="<Пуля/> Призывает двух базовых солдатов Адвент.\n<Пуля/> У базовых солдат Адвент только винтовка.\n<Пуля/> Урон от винтовки, а также некоторые другие способности будут улучшаться с развитием оружейной технологии.\n<Пуля/> Ваши солдаты имеют повышенную точность по сравнению с другими Ксено."
+LocFlyOverText="Призвать двух солдатов Адвент"
+
+[XZBuffSelfTarget X2AbilityTemplate]
+LocFriendlyName="Ловкач-дурак"
+LocLongDescription="Ваш Ксено приобретает уклонение и становится немного более вероятной целью."
+LocPromotionPopupText="<Пуля/> Ваш Ксено приобретает 50 уклонения.\n<Пуля/> Ваш Ксено теряет 1 защиту, что делает его более вероятной целью. Более эффективно на более высоких уровнях сложности."
+LocFlyOverText="Ловкач-дурак"
+
+[XZBuffedSelfTarget X2AbilityTemplate]
+LocFriendlyName="Ловкач-дурак"
+LocLongDescription="Ваш Ксено приобретает уклонение и становится немного более вероятной целью."
+LocHelpText="Ваш Ксено приобретает 30 уклонения.\n<Пуля/> Ваш Ксено теряет 1 защиту, что делает его более вероятной целью. Более эффективно на более высоких уровнях сложности."
+LocFlyOverText="Ловкач-дурак"
+
+[XZGrantGrenade X2AbilityTemplate]
+LocFriendlyName="Взрывное снаряжение"
+LocLongDescription="Ваш Ксено получает гранату."
+LocPromotionPopupText="<Пуля/> Ваш Ксено получает гранату. Уровень гранаты будет определяться максимальным уровнем гранаты, который у вас есть."
+LocFlyOverText="Взрывное снаряжение"
+
+[XZUpgradeTroopers X2AbilityTemplate]
+LocFriendlyName="Меч и Щит"
+LocLongDescription="Ваши солдаты Адвент обновляются до Стан Лансера и Носителя Щита Адвент."
+LocPromotionPopupText="<Пуля/> Ваши солдаты Адвент обновляются до Стан Лансера и Носителя Щита Адвент."
+LocFlyOverText="Меч и Щит"
+
+[XZSpawnLancer X2AbilityTemplate]
+LocFriendlyName="Меч"
+LocLongDescription="Призвать Стан Лансера Адвент."
+LocHelpText="Призвать Стан Лансера Адвент."
+LocFlyOverText="Меч"
+
+[XZSpawnShieldBearer X2AbilityTemplate]
+LocFriendlyName="Щит"
+LocLongDescription="Призвать Носителя Щита Адвент."
+LocHelpText= "Призвать Носителя Щита Адвент."
+LocFlyOverText="Щит"
+
+[XZBuffAim X2AbilityTemplate]
+LocFriendlyName="Мощная Точность"
+LocLongDescription="Улучшение меткости вашего Ксено."
+LocPromotionPopupText="<Пуля/> Ваша единица приобретает 5/7/10 меткости в зависимости от уровня компьютера."
+LocFlyOverText="Мощная Точность"
+
+[XZSpawnGeneral X2AbilityTemplate]
+LocFriendlyName="Общий Зарождения"
+LocLongDescription="Призвать Адвент Генерала в дополнение к вашим другим солдатам Адвент."
+LocHelpText="Призвать вашего Адвент Генерала"
+LocPromotionPopupText="Призвать Адвент Генерала в дополнение к вашим другим солдатам Адвент.\n<Пуля/>Адвент Генерал имеет винтовку, флешбенг и способность помечать."
+LocFlyOverText="Призвать Адвент Генерала"
+
+[XZUndyingLoyalty X2AbilityTemplate]
+LocFriendlyName="Вечное Подчинение"
+LocLongDescription="Когда разум вашего Ксено отказывает, вживленный чип в его мозге берет контроль, позволяя выполнять элементарные функции."
+LocHelpText="Когда ваш Ксено умирает, он превращается в з
+
+омби, которым вы управляете"
+LocPromotionPopupText="Когда ваш Ксено умирает, он превращается в зомби, которым вы управляете."
+LocFlyOverText="Вечное Подчинение"
+
+[XZGrantUndyingLoyalty X2AbilityTemplate]
+LocFriendlyName="Вечное Подчинение"
+LocLongDescription="Когда разум вашего Ксено отказывает, вживленный чип в его мозге берет контроль, позволяя выполнять элементарные функции."
+LocHelpText="Когда ваш Ксено умирает, он превращается в зомби, которым вы управляете"
+LocPromotionPopupText="Когда ваш Ксено умирает, он превращается в зомби, которым вы управляете."
+LocFlyOverText="Вечное Подчинение"
+
+[XZZombieAttack X2AbilityTemplate]
+LocFriendlyName="Мели"
+LocLongDescription="Атака зомби в ближнем бою."
+LocHelpText="Атака зомби в ближнем бою."
+
+[XZSpawnCodex X2AbilityTemplate]
+LocFriendlyName="Призвать Кодекс"
+LocLongDescription="Призвать базовую единицу Кодекса вместо солдата Адвент."
+LocHelpText="Призвать ваш Кодекс."
+LocPromotionPopupText="<Пуля/> Призывает базовую единицу Кодекса.\n<Пуля/> Базовые единицы Кодекса начинают с Пси-бомбы и Клонирования. \n<Пуля/> Пси-бомба наносит урон 3-4 через один ход и отключает оружие противников.\n<Пуля/> Клонирование срабатывает при получении урона, создавая копию кодекса, которая появится где-то.\n<Пуля/> Ваш Кодекс имеет повышенное здоровье по сравнению с другими Ксено."
+LocFlyOverText="Призвать Кодекс"
+
+[XZGrantTeleport X2AbilityTemplate]
+LocFriendlyName="Телепортация"
+LocLongDescription="Вашему Ксено предоставляется способность телепортации."
+LocPromotionPopupText="<Пуля/> Ваш Ксено может телепортироваться на любую видимую плитку.\n<Пуля/> Время перезарядки 2 хода."
+LocFlyOverText="Предоставлена телепортация"
+
+[XZGrantFocusingShock X2AbilityTemplate]
+LocFriendlyName="Усиление удара"
+LocLongDescription="Ксенозоолог посылает электрический шок через вживленный чип, заставляя полностью сконцентрироваться."
+LocPromotionPopupText="<Пуля/> Ваш Ксено получает 1 урон и получает бонус 15 к меткости. Время перезарядки 2 хода."
+LocFlyOverText="Предоставлено усиление удара"
+
+[XZFocusingShock X2AbilityTemplate]
+LocFriendlyName="Усиление удара"
+LocLongDescription="Ксенозоолог посылает электрический шок через вживленный чип, заставляя полностью сконцентрироваться."
+LocHelpText="Ваш Ксено получает 1 урон и получает бонус к меткости."
+LocFlyOverText="Предоставлено усиление удара"
+
+[XZSuperShock X2AbilityTemplate]
+LocFriendlyName="Суперудар"
+LocLongDescription="Ксенозоолог посылает электрический шок через вживленный чип, заставляя полностью сконцентрироваться."
+LocHelpText="Ваш Ксено получает 1 урон и получает бонус к меткости."
+LocFlyOverText="Суперудар"
+
+[XZRPGSuperShock X2AbilityTemplate]
+LocFriendlyName="Суперудар"
+LocLongDescription="Ксенозоолог посылает электрический шок через вживленный чип, заставляя полностью сконцентрироваться."
+LocHelpText="Ваш Ксено получает 1 урон и получает бонус к меткости."
+LocFlyOverText="Суперудар"
+
+[XZGrantPsionicBomb X2AbilityTemplate]
+LocFriendlyName="Псионический импульс"
+LocLongDescription="Открывает небольшую псионическую пропасть, которая отключает оружие любых юнитов, попавших в ее радиус, и наносит урон внутри этого радиуса через один ход."
+LocPromotionPopupText="<Пуля/> Кодекс получает способность открывать небольшую псионическую пропасть.\n<Пуля/> Псионическая пропасть отключает оружие любых юнитов, попавших в ее радиус, и наносит урон 3-4/5-6/6-7 внутри этого радиуса через один ход.\n<Пуля/> Время перезарядки 4 хода."
+LocFlyOverText="Псионический импульс"
+
+[XZUpgradePsionicBomb X2AbilityTemplate]
+LocFriendlyName="Измерительное Нестабильность"
+LocLongDescription="Кодекс создает бурлящую измерительную нестабильность, которая наносит урон всем юнитам и опустошает их оружие; любые, кто остается внутри ее границ, также получают второй взрыв."
+LocPromotionPopupText="<Пуля/> Кодекс получает способность открывать измерительную пропасть.\n<Пуля/> Измерительная пропасть наносит урон как при установке, так и на следующий ход, и имеет больший радиус поражения по сравнению с псионическим импульсом.\n<Пуля/> Имеет 1 заряд."
+LocFlyOverText="Измерительное Нестабильность"
+
+[XZBuffHp X2AbilityTemplate]
+LocFriendlyName="Здоровое Сердце"
+LocLongDescription="Улучшает здоровье вашего Ксено."
+LocPromotionPopupText="<Пуля/> Ваша единица получает 1/2/4 очка здоровья в зависимости от уровня компьютера."
+LocFlyOverText="Улучшение Здоровья"
+
+[XZUpgradeSuperposition X2AbilityTemplate]
+LocFriendlyName="Суперудар"
+LocLongDescription="Время перезарядки у усиления удара снижено до 0."
+LocPromotionPopupText="Время перезарядки усиления удара снижено до 0."
+LocFlyOverText="Суперудар"
+
+[XZSpawnSpectre X2AbilityTemplate]
+LocFriendlyName="Призвать Призрака"
+LocLongDescription="Призвать базовую единицу Призрака вместо солдата Адвент."
+LocHelpText="Призвать вашего Призрака."
+LocPromotionPopupText="<Пуля/> Призывает базовую единицу Призрака
+
+.\n<Пуля/> Базовая единица Призрака начинает с Узы тени и Ужаса.\n<Пуля/> Узы тени завершают ход призрака, заставляя любого гуманоида остаться без сознания на 1 ход и создавая теневого клонированного.\n<Пуля/> Ужас наносит урон 3/5/7 гуманоидам, восстанавливая полученный урон обратно.\n<Пуля/> Ваш Призрак имеет повышенную подвижность по сравнению с другими Ксено."
+LocFlyOverText="Призвать Призрака"
+
+
+[XZGrantLightningReflexes X2AbilityTemplate]
+LocFriendlyName="Длительное свечение"
+LocLongDescription="Вашему Ксено предоставляется способность Молниеносные Рефлексы."
+LocPromotionPopupText="<Пуля/> Ваше Ксено уклонится от первой атаки на охоте каждый ход."
+LocFlyOverText="Предоставлены Молниеносные Рефлексы"
+
+[XZGrantImplacable X2AbilityTemplate]
+LocFriendlyName="Смертельное Движение"
+LocLongDescription="Вашему Ксено предоставляется способность Неумолимый."
+LocPromotionPopupText="<Пуля/> Ваше Ксено получает дополнительное движение после убийства."
+LocFlyOverText="Смертельное Движение"
+
+[XZShadowBoundStorm X2AbilityTemplate]
+LocFriendlyName="Теневая буря"
+LocLongDescription="Призрак связывает тень любого юнита, который входит или атакует в ближнем бою."
+LocPromotionPopupText="Призрак связывает тень любого юнита, который входит или атакует в ближнем бою."
+LocFlyOverText="Теневая буря"
+
+[XZBuffMobility X2AbilityTemplate]
+LocFriendlyName="Подвижный Мигрант"
+LocLongDescription="Улучшает подвижность вашего Ксено."
+LocPromotionPopupText="<Пуля/> Ваше Ксено получает 1/2/3 очка подвижности в зависимости от уровня компьютера."
+LocFlyOverText="Улучшение подвижности единицы"
+
+[XZUpgradeShadowbind X2AbilityTemplate]
+LocFriendlyName="Душеворот тени"
+LocHelpText="Связывание теней убьет цель, на которую направлено."
+LocLongDescription="Когда ваш Призрак создает свою теневую копию, он крадет душу цели, вкладывая ее в тень."
+LocPromotionPopupText="Теперь связывание теней убивает свою цель, кроме создания теневого клонирования."
+LocFlyOverText="Убить любой юнит, который связан тенью"
+
+
+;Creature info
+
+; Trooper Abilities
+[XZTrooper X2CharacterTemplate]
+strCharacterName="Чипированный солдат Адвент"
+
+[XZLancer X2CharacterTemplate]
+strCharacterName="Чипированный атакующий лансировщик Адвент"
+
+[XZShieldBearer X2CharacterTemplate]
+strCharacterName="Чипированный носитель щита Адвент"
+
+[XZGeneral X2CharacterTemplate]
+strCharacterName="Чипированный генерал Адвент"
+
+[ChippedCorpse X2CharacterTemplate]
+strCharacterName="Чипированное тело"
+
+[XZTrooper_Wpn X2WeaponTemplate]
+FriendlyName="Винтовка ADVENT"
+FriendlyNamePlural="Винтовки ADVENT"
+BriefSummary="XCOM сумело восстановить различные стандартные пехотные оружия; это наиболее распространенный вид, аналогичный винтовке, использованной двадцать лет назад. Хотя оно явно уступает по качеству магнитным технологиям ADVENT, его можно улучшить, используя дополнительные образцы оружия, как только будет разработана стандартная техническая схема."
+TacticalText="<Bullet/>Выстрел из основного оружия всегда завершает ход солдата.\n<Bullet/>Если солдат стреляет с обоими доступными действиями, будет сделано три выстрела с пониженной точностью, но в целом повышается эффективность.\n<Bullet/>Используйте обновления, добытые у врагов, для улучшения тактической эффективности штурмовой винтовки."
+
+[XZStunLancer_StunLance X2WeaponTemplate]
+FriendlyName="Электро-пика Адвент"
+FriendlyNamePlural="Электро-пики Адвент"
+BriefSummary="Попадание этим оружием может оглушить здоровую цель, лишая ее действий. Если оно используется против цели, которая уже ранена, оружие может фактически уложить ее без сознания, выведя из боя."
+TacticalText="<Bullet/>Атака цели в ближнем бою вашим Электро-пиком, с шансом наложения на цель отрицательных эффектов на психику."
+
+; Способности Призрака
+[XZSpectre X2CharacterTemplate]
+strCharacterName="Чипированный Призрак"
+
+[XZShadowbindUnit X2CharacterTemplate]
+strCharacterName="Тень"
+
+[XZSpectre_Wpn X2WeaponTemplate]
+FriendlyName="Винтовка Призрака"
+FriendlyNamePlural="Винтовки Призрака"
+BriefSummary="Винтовка Призрака"
+TacticalText="Винтовка Призрака"
+
+[XZHorror X2AbilityTemplate]
+LocFriendlyName="Ужас"
+LocHelpText="Тентакли от Призрака протягиваются и связывают цель-гуманоида, нанося урон цели и исцеляя Призрака."
+LocLongDescription="Тентакли от Призрака протягиваются и связывают цель-гуманоида, нанося урон цели и исцеляя Призрака."
+LocFlyOverText="Ужас!"
+
+[XZGrantHorror X2AbilityTemplate]
+LocFriendlyName="Ужас"
+LocHelpText="Тентакли от Призрака протягиваются и связывают цель-гуманоида, нанося урон цели и исцеляя Призрака."
+LocLongDescription="Тентакли от Призрака протягиваются и связывают цель-гуманоида, нанося урон цели и исцеляя Призрака."
+LocPromotionPopupText="<Пуля/> Тентакли от Призрака протягиваются и наносят урон, исцеляя на 3/5/7 в зависимости от уровня компьютера."
+LocFlyOverText="Ужас"
+
+[XZShadowbind X2AbilityTemplate]
+LocFriendlyName="Связывание тенью"
+LocHelpText="Создает теневую копию цели-гуманоида, которая сохраняет все способности цели. Цель выходит из строя на 1 ход"
+LocLongDescription="Создает теневую копию цели-гуманоида, которая сохраняет все способности цели. Цель выходит из строя на 1 ход"
+LocFlyOverText="Связывание тенью"
+
+[XZCyberus_Wpn X2WeaponTemplate]
+FriendlyName="Винтовка Кодекса"
+FriendlyNamePlural="Винтовки Кодекса"
+BriefSummary="XCOM сумело восстановить различные стандартные пехотные оружия; это наиболее распространенный вид, аналогичный винтовке, использованной двадцать лет назад. Хотя оно явно уступает по качеству магнитным технологиям ADVENT, его можно улучшить, используя дополнительные образцы оружия, как только будет разработана стандартная техническая схема."
+TacticalText="<Bullet/>Выстрел из основного оружия всегда завершает ход солдата.\n<Bullet/>Если солдат стреляет с обоими доступными действиями, будет сделано три выстрела с пониженной точностью, но в целом повышается эффективность.\n<Bullet/>Используйте обновления, добытые у врагов, для улучшения тактической эффективности штурмовой винтовки"
+
+[XZTeleport X2AbilityTemplate]
+LocFriendlyName="Телепортация"
+LocLongDescription="Вашему Ксено предоставлена способность телепортироваться на дальние расстояния вместо прямого перемещения. Обходит всю огневую подготовку и огневые ответные удары."
+LocHelpText="Телепортируйтесь на новое местоположение. Обходит всю огневую подготовку и огневые ответные удары."
+LocFlyOverText="Телепортация"
+
+[XZSuperposition X2AbilityTemplate]
+LocFriendlyName="Клон"
+LocLongDescription="Тело Кодекса - это экстра-проекция в другом измерении. Когда Кодекс поврежден, он 'клонируется', телепортируясь в ближайшее свободное пространство и создавая новое воплощение себя."
+LocHelpText="Разделитесь на новый Кодекс, а затем телепортируйтесь при получении повреждений."
+LocFlyOverText="Клон"
+
+[XZTriggerSuperposition X2AbilityTemplate]
+LocFriendlyName="Клон"
+LocLongDescription="Тело Кодекса - это экстра-проекция в другом измерении. Когда Кодекс поврежден, он 'клонируется', телепортируясь в ближайшее свободное пространство и создавая новое воплощение себя."
+LocHelpText="Разделитесь на новый Кодекс, а затем телепортируйтесь при получении повреждений."
+LocFlyOverText="Клон"
+
+[XZPsiBombStage1 X2AbilityTemplate]
+LocFriendlyName="Псионический импульс"
+LocLongDescription="Открывает малый псионический разлом, который выключает оружие всех юнитов, попавших в его радиус, и наносит урон внутри этого радиуса после одного хода."
+LocHelpText="Открывает малый псионический разлом, который выключает оружие всех юнитов, попавших в его радиус, и наносит урон внутри этого радиуса после одного хода."
+LocFlyOverText="Пси-бомба"
+
+; Griffin, Joe, Jake to update text
+[XZCodexImmunities X2AbilityTemplate]
+LocFriendlyName="Иммунитеты Кодекса"
+LocLongDescription="Кодекс устойчив к эффектам огня, яда и кислоты."
+LocHelpText="Кодекс устойчив к огню, яду и кислоте."
+LocFlyOverText="Иммунитеты Кодекса"
+
+[XZPsiDimensionalRiftStage1 X2AbilityTemplate]
+LocFriendlyName="Измерительное нестабильности"
+LocLongDescription="Кодекс создает бурлящую измерительную нестабильность, отключающую оружие всех юнитов, попавших в его радиус, которая взрывается через короткое время. Любая жертва, попавшая во взрыв, получает урон от высвобожденной неестественной энергии."
+LocHelpText="Открывает большой псионический разлом, который наносит урон всем юнитам, находящимся внутри его границ."
+LocFlyOverText="Измерительное нестабильности"
